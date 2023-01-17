@@ -24,6 +24,8 @@
                         <li class="list-group-item">$movie -> title</li>
                         <li class="list-group-item">$movie -> original_title</li>
                         <li class="list-group-item">$movie -> nazionality</li>
+                        <li class="list-group-item">$movie -> date</li>
+
                     </ul>
                 </div>
             @endforeach
