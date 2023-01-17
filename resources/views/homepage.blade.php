@@ -16,8 +16,19 @@
 </head>
 
 <body>
-
-
+    <div class="container">
+        <div class="row">
+            @foreach ($movies as $movie)
+                <div class="card" style="width: 18rem;">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">$movie -> title</li>
+                        <li class="list-group-item">$</li>
+                        <li class="list-group-item"></li>
+                    </ul>
+                </div>
+            @endforeach
+        </div>
+    </div>
 
 </body>
 
