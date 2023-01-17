@@ -25,6 +25,8 @@
                         <li class="list-group-item">$movie -> original_title</li>
                         <li class="list-group-item">$movie -> nazionality</li>
                         <li class="list-group-item">$movie -> date</li>
+                        <li class="list-group-item">$movie -> vote</li>
+
 
                     </ul>
                 </div>
