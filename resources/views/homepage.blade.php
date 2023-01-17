@@ -18,16 +18,17 @@
 <body>
 
     <div class="container">
+        <h1 class="text-center my-5">FILM</h1>
         <div class="row">
             @foreach ($movies as $movie)
-                <div class="col">
+                <div class="col my-3">
                     <div class="card my-3 new-card">
-                        <h5 class="">{{ $movie->id }}</h5>
+                        <h5 class="p-2">{{ $movie->id }}</h5>
                         <h5>{{ $movie->title }}</h5>
                         <h5>{{ $movie->original_title }}</h5>
                         <h5>{{ $movie->nazionality }}</h5>
-                        <h5>{{ $movie->date }}</h5>
-                        <h5>{{ $movie->vote }}</h5>
+                        <p class="">Data di uscita:{{ $movie->date }}</p>
+                        <h5>Voto {{ $movie->vote }}</h5>
                     </div>
 
                 </div>
