@@ -23,7 +23,7 @@
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">$movie -> title</li>
                         <li class="list-group-item">$movie -> original_title</li>
-                        <li class="list-group-item"></li>
+                        <li class="list-group-item">$movie -> nazionality</li>
                     </ul>
                 </div>
             @endforeach
