@@ -16,19 +16,20 @@
 </head>
 
 <body>
+
     <div class="container">
         <div class="row">
             @foreach ($movies as $movie)
-                <div class="card" style="width: 18rem;">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">$movie -> title</li>
-                        <li class="list-group-item">$movie -> original_title</li>
-                        <li class="list-group-item">$movie -> nazionality</li>
-                        <li class="list-group-item">$movie -> date</li>
-                        <li class="list-group-item">$movie -> vote</li>
+                <div class="col">
+                    <div class="card my-3 new-card">
+                        <h5 class="">{{ $movie->id }}</h5>
+                        <h5>{{ $movie->title }}</h5>
+                        <h5>{{ $movie->original_title }}</h5>
+                        <h5>{{ $movie->nazionality }}</h5>
+                        <h5>{{ $movie->date }}</h5>
+                        <h5>{{ $movie->vote }}</h5>
+                    </div>
 
-
-                    </ul>
                 </div>
             @endforeach
         </div>
